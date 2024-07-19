@@ -12,7 +12,7 @@ let socket;
 
 const Chat = () => {
     const [id, setId] = useState('');
-    const [message, setMessage] = useState([1,2,3,4,5,6])
+    const [message, setMessage] = useState([])
 
     const send = ()=>{
         const message = document.getElementById('chatInput').value;
